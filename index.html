@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    
+    <title>Simple To-Do List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title-div">
+            <img src="./icon.png" alt="icon" height="60px" width="80px">
+            <h1>My To-Do List</h1>
+        </div>
+        <div class="text-area">
+            <input type="text" id="taskInput" placeholder="Enter a new task">
+            <button onclick="addTask()">Add</button>
+       </div>
+        <ul id="taskList"></ul>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
